@@ -1,0 +1,26 @@
+{
+  "name": "go-frontend-meetup-2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 16.x.x"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "4.29.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-error-boundary": "3.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "3.3.0",
+    "prettier": "2.8.7",
+    "vite": "4.2.2"
+  }
+}
